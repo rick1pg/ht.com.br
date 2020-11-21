@@ -4,11 +4,11 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `Pedrinho`,
-    position: `Desenvolvedor Frontend`,
-    description: `Pedrinho é um cara muito legal que faz coisas legais para pessoas legais`,
-    author: `@pedrinho`,
-    siteUrl: `https://ptd.com.br`,
+    title: `Henrique Teixeira`,
+    position: `Dev. Front-End, Gerenciador de Inbound Marketing`,
+    description: `Apareça! O boca-a-boca agora online.`,
+    author: `@henrique_teixeira`,
+    siteUrl: `https://devcelere.com.br`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,

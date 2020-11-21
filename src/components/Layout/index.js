@@ -6,6 +6,8 @@ import MenuBar from '../MenuBar'
 
 import GlobalStyles from '../../styles/global'
 
+import '../../styles/global-fonts.css'
+
 import * as S from './styled'
 
 const Layout = ({ children }) => {

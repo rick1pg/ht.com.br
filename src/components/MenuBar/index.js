@@ -44,12 +44,12 @@ const MenuBar = () => {
       <S.MenuBarItem title="Mudar o tema" className={theme} onClick={() => {
         window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
       }}>
-        <Lightbulb />
+        <Lightbulb style={{marginLeft: 4, width: 16}}/>
       </S.MenuBarItem>
       <S.MenuBarItem title="Mudar visualização" onClick={()=> {
         window.__setPreferredDisplay(isListMode ? 'grid' : 'list')
       }}>
-        {isListMode ? <GridAlt /> : <ThList />}
+        {isListMode ? <GridAlt style={{marginLeft: 2, width: 20}} /> : <ThList style={{marginLeft: 2, width: 20}}/>}
       </S.MenuBarItem>
       <S.MenuBarItem title="Ir para o Topo">
         <UpArrowAlt />

@@ -1,10 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
-  /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-  */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -55,7 +51,7 @@ const GlobalStyles = createGlobalStyle`
     background: var(--background);
     line-height: 1;
     font-size: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Capriola';
   }
   img {
     display: block;
@@ -64,12 +60,13 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body.dark {
-    --borders: #38444d;
-    --texts: #8899a6;
+    --borders: linear-gradient(180deg, rgb(40, 23, 76),rgb(232, 90, 94));
+    --texts: #E9ECF5;
+    --text-color-shadow: rgba(255,255,255, .1);
     --postColor: #fff;
-    --highlight: #1fa1f2;
-    --mediumBackground: #192734;
-    --background: #16202c;
+    --highlight: #CCD6EB;
+    --mediumBackground: linear-gradient(180deg, rgb(40, 23, 76),rgb(232, 90, 94));
+    --background: linear-gradient(180deg, rgb(40, 23, 76),rgb(232, 90, 94));
     --white: #fff;
     --black: #222;
   }
@@ -78,7 +75,8 @@ const GlobalStyles = createGlobalStyle`
     --borders: #dedede;
     --postColor: #111;
     --texts: #555555;
-    --highlight: #1fa1f2;
+    --text-color-shadow: rgba(0,0,0,.1);
+    --highlight: #222;
     --mediumBackground: #f0f0f3;
     --background: #fff;
     --white: #fff;

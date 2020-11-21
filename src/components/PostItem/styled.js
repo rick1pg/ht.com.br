@@ -35,19 +35,24 @@ export const PostItemWrapper = styled.section`
     flex-direction: column;
     justify-content: center;
   }
+
+  ${media.lessThan("small")`
+    display: flex;
+    flex-direction: column;
+  `}
 `
 
 export const PostItemTag = styled.div`
   align-items: center;
   background: ${props => (props.background ? props.background : "var(--highlight)")};
-  border-radius: 50%;
+  border-radius: 10px;
   color: var(--white);
   display: flex;
   font-size: 1.3rem;
   font-weight: 700;
   justify-content: center;
   min-height: 90px;
-  min-width: 90px;
+  min-width: 150px;
   text-transform: uppercase;
 
   body#grid & {
@@ -55,12 +60,12 @@ export const PostItemTag = styled.div`
   }
 
   ${media.lessThan("medium")`
-    border-radius: 0;
     font-size: 1rem;
-    min-height: auto;
-    min-width: auto;
+    min-height: 90px;
+    min-width: 150px;
     padding: .2rem .5rem;
     margin-bottom: .7rem;
+    margin-right: 20px;
   `}
 `
 

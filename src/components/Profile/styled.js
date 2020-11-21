@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const ProfileWrapper = styled.section`
   color: var(--texts);
@@ -23,7 +23,7 @@ export const TextWrapper = styled.div`
   `}
 `
 
-export const ProfileLink = styled(Link)`
+export const ProfileLink = styled(AniLink)`
   color: var(--texts);
   text-decoration: none;
   transition: color 0.5s;
@@ -31,6 +31,40 @@ export const ProfileLink = styled(Link)`
 
   &:hover {
     color: var(--highlight);
+  }
+
+  .mover{
+    ${media.lessThan("medium")`
+    display: none;
+  `}
+  }
+
+  .avatar_mobile{
+    display: block;
+
+    ${media.lessThan("4000px")`
+    display: none;
+  `}
+  ${media.lessThan("large")`
+    display: none;
+  `}
+  ${media.lessThan("medium")`
+    display: flex;
+  `}
+
+  }
+
+  .mover_avatar2 {
+  position: absolute;
+  left: 50%;
+  top: 32px;
+  transform: translate(-50%);
+  background-color: #CCD6EB;
+  border-radius: 20%;
+  height: 7.75rem;
+  margin: auto;
+  width: 8.75rem;
+  z-index: -1;
   }
 
   ${media.lessThan("medium")`
@@ -54,6 +88,7 @@ export const ProfilePosition = styled.small`
   display: block;
   font-size: 1.2rem;
   font-weight: 300;
+  margin-top: 1rem;
 
   ${media.lessThan("medium")`
     font-size: 0.8rem;
