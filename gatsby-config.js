@@ -85,8 +85,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pedrinho Team Dev`,
-        short_name: `PTD`,
+        name: `Henrique Teixeira`,
+        short_name: `HT`,
         start_url: `/`,
         background_color: `var(--background)`,
         theme_color: `var(--background)`,

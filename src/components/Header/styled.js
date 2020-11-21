@@ -31,10 +31,10 @@ export const Typography = styled.div`
     line-height: 0.9em;
     letter-spacing: 4px;
     font-family: 'Source Code Pro', monospace;
-    font-size: 4rem;
+    font-size: 3.1rem;
 
     ${media.lessThan("huge")`
-    font-size: 4rem;
+    font-size: 3.1rem;
   `}
 
     ${media.lessThan("large")`
