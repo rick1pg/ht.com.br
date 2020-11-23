@@ -88,9 +88,9 @@ module.exports = {
         name: `Henrique Teixeira`,
         short_name: `HT`,
         start_url: `/`,
-        background_color: `var(--background)`,
-        theme_color: `var(--background)`,
-        display: `minimal-ui`,
+        background_color: `linear-gradient(180deg, rgb(40, 23, 76),rgb(232, 90, 94))`,
+        theme_color: `linear-gradient(180deg, rgb(40, 23, 76),rgb(232, 90, 94))`,
+        display: `standalone`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
