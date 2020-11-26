@@ -26,7 +26,7 @@ const BlogPost = ({ data, pageContext }) => {
           <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
         </S.PostHeader>
         <S.MainContent>
-          <div dangerouslySetInnerHTML={{ __html: post.node.html }}></div>
+          <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
         </S.MainContent>
         <RecomendedPosts next={next} previous={previous} />
       </Layout>
