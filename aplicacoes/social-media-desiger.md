@@ -1,14 +1,14 @@
 ---
- number: "03"
- id: aplicacao
- title: Desiger
- subtitle: IMBOUND MARKETING
- label: Solicite um Orçamento!
- url: "/"
- icon: rocket
+ api_number: "03"
+ api_id: aplicacao
+ api_title: Social Media Designer
+ api_subtitle: ARTES E CONTEÚDOS PARA MÍDIAS SOCIAIS.
+ api_label: Solicite um Orçamento!
+ api_url: "/orcamento"
+ api_icon: designer
 ---
 
-* ##### Arquivos estáticos que podem ser implantados sem um servidor"
+* ##### açlkfjgbsalkfgbsalkdfgjbskldfgjbsldkgfjbskldfjg"
 
 * ##### Ultizando o formato de página estática AMP do Google, que permite carregamentos mais rápidos e é privilegiado nos resultados de pesquisa do Google.
 

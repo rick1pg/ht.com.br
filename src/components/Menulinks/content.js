@@ -13,7 +13,7 @@ const links = [
     },
     {
       label: "Blog",
-      url: "/posts/",
+      url: "/blog/",
     },
   ]
   

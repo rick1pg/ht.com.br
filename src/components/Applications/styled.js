@@ -5,10 +5,8 @@ export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
   display: flex;
+  margin: 0 0 0 10px;
 
-  ${media.lessThan("large")`
-    margin: 0 0 0 10px;
-  `}
 `
 
 export const InfoWrapper = styled.div`
@@ -107,7 +105,7 @@ export const InfoWrapper = styled.div`
   li {
     width: 740px;
     height: auto;
-    background: linear-gradient(90deg, rgba(175, 174, 172, 0.31) 0%, rgba(175, 172, 172, 0) 100%);
+    background: linear-gradient(90deg, rgba(175, 174, 172, 0.18) 0%, rgba(175, 172, 172, 0) 100%);
     margin-bottom: 5px;
 
     ${media.lessThan("large")`

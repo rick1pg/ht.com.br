@@ -18,7 +18,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       createNodeField({
         node,
         name: "slug",
-        value: `/posts/${slug.slice(12)}`,
+        value: `/${slug.slice(12)}`,
       })
     }
   }
@@ -80,15 +80,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       const postsPerPage = 6
       const numPages = Math.ceil(posts.length / postsPerPage)
   
-      Array.from({ length: numPages }).forEach((_, posts) => {
+      Array.from({ length: numPages }).forEach((_, blog) => {
         createPage({
-          path: posts === 0 ? `/posts` : `/page/${posts + 1}`,
+          path: blog === 0 ? `/blog` : `/page/${blog + 1}`,
           component: path.resolve(`./src/templates/blog-list.js`),
           context: {
             limit: postsPerPage,
-            skip: posts * postsPerPage,
+            skip: blog * postsPerPage,
             numPages,
-            currentPage: posts + 1,
+            currentPage: blog + 1,
           },
         })
       })

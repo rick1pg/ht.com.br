@@ -1,11 +1,11 @@
 ---
- number: "04"
- id: aplicacao
- title: Vídeo
- subtitle: IMBOUND MARKETING
- label: Solicite um Orçamento!
- url: "/"
- icon: rocket
+ api_number: "04"
+ api_id: aplicacao
+ api_title: Vídeo
+ api_subtitle: IMBOUND MARKETING
+ api_label: Solicite um Orçamento!
+ api_url: "/"
+ api_icon: rocket
 ---
 
 * ##### Arquivos estáticos que podem ser implantados sem um servidor"

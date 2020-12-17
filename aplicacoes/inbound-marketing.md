@@ -1,23 +1,21 @@
 ---
- number: "02"
- id: aplicacao
- title: Imbound Marketing
- subtitle: IMBOUND MARKETING
- label: Solicite um Orçamento!
- url: "/"
- icon: rocket
+ api_number: "02"
+ api_id: aplicacao
+ api_title: Inbound Marketing
+ api_subtitle: ABORDAGEM QUE FAZ O PÚBLICO CHEGAR.
+ api_label: Solicite um Orçamento!
+ api_url: "/orcamento"
+ api_icon: inbound
 ---
 
-* ##### açlkfjgbsalkfgbsalkdfgjbskldfgjbsldkgfjbskldfjg"
+* ##### produção de conteúdo relevante, para atrair leads de maneira assertiva. "
 
-* ##### Ultizando o formato de página estática AMP do Google, que permite carregamentos mais rápidos e é privilegiado nos resultados de pesquisa do Google.
+* ##### Landing Pages com boa otimização de SEO.
 
-* ##### Permita que os navegadores modernos carreguem o tamanho certo dos ativos de imagem de acordo com o tamanho da janela de visualização por meio de imagens responsivas.
+* ##### Páginas prepadas para converter visitantes em Leads.
 
-* ##### Fornece acesso offline por meio de service workers em Progressive Web Apps para que os usuários em conexões irregulares possam acessar seu site.
+* ##### Criamos uma oportunidades de negócio e nutrimos o lead até o momento ideal da compra.
 
-* ##### Proteja seu aplicativo de vulnerabilidades de cross-site scripting (XSS) que podem expor seu site a invasores.
+* ##### CRM pré-configurado para analisar todas as taxas de conversão do funil de vendas e monitorar todas as ações.
 
-* ##### Apresente significado ao HTML para reforçar a semântica desejada e ajudar na navegação do seu site por usuários de tecnologias assistivas e acessíveis, como leitores de tela.
-
-* ##### Netlify CMS é um CMS (Content Management System). Ele permite que você crie e edite conteúdo como se fosse WordPress, mas é uma interface muito mais simples e amigável.
+* ##### É possível calcular o retorno sobre investimento (ROI) para identificar se o Marketing Digital da sua empresa está gerando lucro ou prejuízo..
