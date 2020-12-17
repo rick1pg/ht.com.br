@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: pedinhoteamdev/blog.ptd.com.br
-  branch: main
+  repo: rick1pg/ht.com.br
+  branch: master
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
@@ -41,6 +41,9 @@ collections:
           { label: 'SVG', value: '#7D669E' },
           { label: 'Dev', value: '#637a91' },
           { label: 'Misc', value: '#7AAB13' },
+          { label: 'Git', value: '#7AAB13' },
+          { label: 'Netlify', value: '#7AAB13' },
+          { label: 'Algolia', value: '#7AAB13' },
         ]
       }
       - { label: "Body", name: "body", widget: "markdown" }
