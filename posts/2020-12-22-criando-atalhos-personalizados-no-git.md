@@ -18,7 +18,7 @@ background: "#7AAB13"
 
 2º Para abrir no vs code basta digitar `git config --global --edit`, isso abrirá o vs code com as informações de acesso para modificação.
 
-```
+```javascript
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -31,6 +31,18 @@ background: "#7AAB13"
 	editor = code
 
 ```
+
+# Criando Alias.
+
+1º Criar `[alias]` na última linha e na criar seus comandos personalizados para o git
+
+```javascript
+[alias]
+c = !git add --all && git commit -m
+s = !git status -s
+l = !git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+```
+
 
 
 
