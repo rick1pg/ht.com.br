@@ -7,5 +7,5 @@ category: js
 background: "#2DA0C3"
 ---
 ```
-npm i -D eslint eslint-config-standard-with-typescript
+npm i -D eslint eslint-config-standard-with-typescript@11
 ```
