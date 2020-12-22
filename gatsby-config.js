@@ -8,7 +8,7 @@ module.exports = {
     position: `Dev. Front-End, Gerenciador de Inbound Marketing`,
     description: `Apareça! O boca-a-boca agora online.`,
     author: `@henrique_teixeira`,
-    siteUrl: `https://devcelere.com.br`,
+    siteUrl: `https://henriqueteixeira.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
