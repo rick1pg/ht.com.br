@@ -25,8 +25,8 @@ background: "#7AAB13"
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = henrique
-	email = rick1pg@hotmail.com
+	name = seu nome do git
+	email = seu email do git
 [core]
 	editor = code
 
