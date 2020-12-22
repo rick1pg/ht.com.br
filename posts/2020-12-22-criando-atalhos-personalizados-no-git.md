@@ -16,7 +16,21 @@ background: "#7AAB13"
 
 1º No terminal do git na pasta do diretório digita e o comando `git config --global core.editor code`, fazendo isso vai liberar o acesso as informações diretamente dento do vs code.
 
-2º Para abrir no vs code basta digitar `git config --global --edit`, isso abrirá o vs code com as informações de acesso para modificação
+2º Para abrir no vs code basta digitar `git config --global --edit`, isso abrirá o vs code com as informações de acesso para modificação.
+
+```
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = henrique
+	email = rick1pg@hotmail.com
+[core]
+	editor = code
+
+```
 
 
 
