@@ -7,7 +7,13 @@ category: dev
 background: "#7AAB13"
 ---
 
-* Criar uma pasta para guardar a personalização do git com um arquivo index.js dentro.
+1º Criar uma pasta para guardar a personalização do git com um arquivo index.js dentro.
+
+2º Cria um `git init`, `git add .` e `git commit -m "primeiro commit"` dentro do projeto.
+
+
+
+
 
 
 
